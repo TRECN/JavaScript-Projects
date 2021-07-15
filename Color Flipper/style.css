@@ -42,8 +42,10 @@ nav{
 .navbar a{
     text-transform: capitalize;
     padding: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     color: rgb(30, 6, 85);
+    margin-right: 1px;
+
 }
 
 
