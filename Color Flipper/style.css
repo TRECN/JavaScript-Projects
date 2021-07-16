@@ -30,7 +30,7 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
-.navbar h4{
+.navbar .nav-link h4{
     margin-bottom: 0;
     color: teal;
     letter-spacing: 2px;
