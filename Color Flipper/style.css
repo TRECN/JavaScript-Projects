@@ -15,7 +15,7 @@ a{
     text-decoration: none;
 }
 nav{
-    float: left;
+
     background: wheat;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
@@ -32,16 +32,8 @@ nav{
     margin: 0;
     
 }
-.nav-link li{
-    float: left;
-}
-.navbar li a{
-    text-transform: capitalize;
-    padding: 20px;
-    letter-spacing: 3px;
-    color: rgb(30, 6, 85);
-    margin-right: 1px;
-
+li{
+    float: right;
 }
 
 
