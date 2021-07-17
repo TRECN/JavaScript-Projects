@@ -56,6 +56,17 @@ h4:hover,a:hover{
     }
     
 }
+.container{
+    min-height: calc(100vh-3rem);
+    display: grid;
+    place-items: center;
+    background: black;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
 
 
 
