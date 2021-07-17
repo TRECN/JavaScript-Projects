@@ -67,6 +67,7 @@ main{
     min-height: calc(100vh-3rem);
     display: grid;
     place-items: center;
+    margin-top: 10%;
 }
 .container{
     text-align: center;
@@ -77,6 +78,18 @@ main{
     padding: 1rem;
     border-radius: 10px;
     margin-bottom: 2.5rem;
+  }
+  .color{
+      color: hsl(205, 78%, 60%);
+  }
+  button{
+      text-transform: uppercase;
+      border: 3px solid black;
+      border-radius: 7px;
+      padding: 10px 20px;      
+      font-size: 15px;
+      background-color: transparent;
+      letter-spacing: 1px; 
   }
   
 
