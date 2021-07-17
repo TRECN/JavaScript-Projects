@@ -69,13 +69,16 @@ main{
     place-items: center;
 }
 .container{
-    color: white;
-    background: black;
-    padding: 1rem;
-    border-radius: 15px;
-    margin-bottom: 2.5rem;
     text-align: center;
 }
+.container h2 {
+    background: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 2.5rem;
+  }
+  
 
 
 
