@@ -10,13 +10,20 @@ body{
     color: hsl(209, 61%, 16%);
     font-size: 0.87rem;
 }
+h2{
+    letter-spacing: 1px;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: "Roboto", sans-serif;
+}
 
 a{
     text-decoration: none;
 }
 nav{
 
-    background: wheat;
+    background: white;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
