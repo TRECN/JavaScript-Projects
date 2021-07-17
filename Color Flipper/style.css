@@ -62,7 +62,7 @@ main{
     place-items: center;
 }
 .container{
-    
+    color: white;
     background: black;
     padding: 1rem;
     border-radius: 15px;
