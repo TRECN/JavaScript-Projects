@@ -86,7 +86,7 @@ main{
     border-radius: 10px;
     margin-bottom: 2.5rem;
   }
-  .color{
+  #color{
       color: hsl(205, 78%, 60%);
       letter-spacing: 3px;
   }
