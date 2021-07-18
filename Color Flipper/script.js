@@ -3,7 +3,12 @@ const btn=document.getElementById('btn');
 const color=document.getElementById('color');
 btn.addEventListener("click", 
 function (){
-    color.textContent=colors[1];
-    document.body.style.backgroundColor=color.textContent;
-    
+    var rand=getRand();
+    color.textContent=colors[getRand()];
+    document.body.style.backgroundColor=colors[getRand()]
+    btn.textContent=getRand();
 });
+
+function getRand(){
+    return Math.floor(Math.random()*colors.length);
+}
