@@ -1,4 +1,5 @@
 var body=document.getElementById('bdy');
-var span=document.getElementById('color');
-
-body.style.backgroundColor='gray';
+var s=document.getElementsById('color').textContent;
+function myFunction(){
+    body.style.backgroundColor=s;
+}
