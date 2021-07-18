@@ -1,5 +1,6 @@
-
-var s=document.getElementsById('color').textContent;
-function myFunction(){
-    document.body.style.backgroundColor=s;
-}
+const btn=document.getElementById('btn');
+const color=document.getElementById('color');
+btn.addEventListener("click", 
+function (){
+    document.body.style.backgroundColor=color.textContent;
+});
