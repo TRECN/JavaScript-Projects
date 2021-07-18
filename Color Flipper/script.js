@@ -4,9 +4,8 @@ const color=document.getElementById('color');
 btn.addEventListener("click", 
 function (){
     var rand=getRand();
-    color.textContent=colors[getRand()];
-    document.body.style.backgroundColor=colors[getRand()]
-    btn.textContent=getRand();
+    color.textContent=colors[rand];
+    document.body.style.backgroundColor=colors[rand];
 });
 
 function getRand(){
