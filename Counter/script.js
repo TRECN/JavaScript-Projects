@@ -14,3 +14,7 @@ increase.addEventListener("click",function(){
     val.textContent=value;
     
 });
+reset.addEventListener("click",function(){
+    value=0;
+    val.textContent=value; 
+});
