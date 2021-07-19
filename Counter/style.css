@@ -34,4 +34,9 @@ h1{
     font-size: 3rem;
     margin-bottom: 0.7rem;
 }
+.btn:hover{
+    transition: .6s;
+    background-color: black;
+    color: white;
+}
 
