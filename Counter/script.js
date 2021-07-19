@@ -1,10 +1,11 @@
 let value=0;
-var val=document.getElementById('value');
-var decrease=document.getElementsById('decrease');
-var increase=document.getElementsById(('increase');
-var reset= document.getElementsById(('reset');
+const val=document.getElementById('value');
+const decrease=document.getElementById('decrease');
+const increase=document.getElementById('increase');
+const reset= document.getElementById('reset');
 
-decrease.addEventListener("click",function(){
+decrease.addEventListener("click",
+function(){
     value=value-1;
     val.textContent=value;
 });
