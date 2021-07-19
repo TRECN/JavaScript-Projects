@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
 
 }
@@ -18,3 +19,4 @@ main{
     font-size: 6rem;
     font-weight: bold;
 }
+
