@@ -6,9 +6,14 @@ body{
 }
 nav{
     background-color: white;
-}
-.nav-center{
+    box-shadow: 0 5px 15px rgb(192, 191, 191);
     display: flex;
     align-items: center;
-    box-shadow: 0 5px 15px rgb(192, 191, 191);
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+}
+.nav-center h1{
+    letter-spacing: 3px;
 }
