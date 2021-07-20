@@ -29,7 +29,12 @@ ul{
 }
 .links a{
    color: gray;
+   display: block;
    text-decoration: none;
    padding: .5rem;
    overflow: hidden;
+   padding: 8px;
+}
+li{
+    float: left;
 }
