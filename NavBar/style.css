@@ -1,7 +1,6 @@
 body{
     background-color: hsl(210, 36%, 96%);
     box-sizing: border-box;
-
     margin: 0;
 }
 nav{
@@ -14,6 +13,13 @@ nav{
 ul{
     list-style-type: none;
 }
-.nav-center h1{
+.nav-logo{
+    display: flex;
+    float: left;
+    margin-left: 5px;
+}
+.nav-logo h1{
     letter-spacing: 3px;
+    text-shadow: 0 1px 5px rgb(41, 40, 40);
+    margin-left: 10px;
 }
