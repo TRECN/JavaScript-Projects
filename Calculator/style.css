@@ -15,12 +15,16 @@ body{
     width: 500px;
     border-radius: 10px;
     background: #fff;
-    padding: 5px 5px;
+    padding: 10px 10px;
     text-align: center;
 }
 #textbar{
     height: 50px;
     width: 100%;
-
+}
+.button{
+    width: 100%;
+    display: grid;
+    
 }
 
