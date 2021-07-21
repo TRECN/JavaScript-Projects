@@ -12,9 +12,15 @@ body{
 }
 .content{
     position: relative;
+    width: 500px;
     border-radius: 10px;
     background: #fff;
-    padding: 50px 50px;
+    padding: 5px 5px;
     text-align: center;
+}
+#textbar{
+    height: 50px;
+    width: 100%;
+
 }
 
