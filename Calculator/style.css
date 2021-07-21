@@ -10,3 +10,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.content{
+    position: relative;
+    border-radius: 10px;
+    background: #fff;
+    padding: 50px 50px;
+}
